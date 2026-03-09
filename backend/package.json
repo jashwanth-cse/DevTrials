@@ -2,15 +2,19 @@
     "name": "devtrials-backend",
     "version": "1.0.0",
     "description": "Backend for GigCover Parametric Insurance",
-    "main": "index.js",
+    "main": "server.js",
     "type": "module",
     "scripts": {
-        "start": "node index.js",
-        "dev": "node --watch index.js"
+        "start": "node server.js",
+        "dev": "nodemon server.js"
     },
     "dependencies": {
-        "express": "^4.21.0",
+        "axios": "^1.13.6",
         "cors": "^2.8.5",
-        "dotenv": "^16.4.5"
+        "dotenv": "^16.4.5",
+        "express": "^4.21.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14"
     }
 }
