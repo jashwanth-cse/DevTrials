@@ -6,12 +6,12 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
+__pycache__
 node_modules
 dist
 dist-ssr
 *.local
-
+venv
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -22,7 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
+.venv
 # Environment Variables
 .env
 .env.*
